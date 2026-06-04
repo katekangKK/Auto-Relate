@@ -1,0 +1,8 @@
+pandas
+numpy
+scipy
+scikit-learn
+schedula
+regex
+python-dateutil
+openpyxl
