@@ -101,7 +101,9 @@ The script reads datasets from `data/FD` and writes outputs to `results/fd`.
 python scripts/run_threshold_evaluation.py --help
 ```
 
-The script evaluates different threshold settings on clean and dirty data.
+The script evaluates the FD and RWD datasets under clean and dirty settings. Use `--violation-threshold` to adjust the violation-rate cutoff for rejecting or skipping candidate dependencies (e.g., `0.0005` for 0.05%).
+
+The script also supports predicting known negative candidates as negative and retaining them in evaluation if both columns are numeric or their violation rate exceeds the threshold.
 
 ## Outputs
 
