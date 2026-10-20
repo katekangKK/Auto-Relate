@@ -37,7 +37,7 @@ We built the first large-scale benchmark suite for functional relationship disco
 This benchmark enables a systematic evaluation of the functional relationship discovery problem and can serve as a useful resource for future research.
 
 The benchmark datasets are available at Google Drive: 
-[https://drive.google.com/drive/folders/1wVgqzdhtQzbvYKBWM2kcznM8HJDXuIH2?usp=sharing](https://drive.google.com/drive/folders/1wVgqzdhtQzbvYKBWM2kcznM8HJDXuIH2?usp=sharing)
+[https://drive.google.com/drive/folders/1woXYj8-aFkvqZY5fMA5wEGEy0xkGNZrj?usp=sharing](https://drive.google.com/drive/folders/1woXYj8-aFkvqZY5fMA5wEGEy0xkGNZrj?usp=sharing)
 
 
 Place the downloaded folders under the repository root with the following structure:
