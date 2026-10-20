@@ -17,6 +17,7 @@ scripts/
   run_auto_relate_ar.py   Run Auto-Relate on arithmetic-relationship data
   run_auto_relate_st.py   Run Auto-Relate on string-transformation data
   run_auto_relate_fd.py   Run Auto-Relate on functional-dependency data
+  run_threshold_evaluation.py  Evaluate candidate-rejection threshold settings
 ```
 
 ## Installation
@@ -93,6 +94,14 @@ python scripts/run_auto_relate_fd.py
 ```
 
 The script reads datasets from `data/FD` and writes outputs to `results/fd`.
+
+### 4. Run Threshold Evaluation
+
+```bash
+python scripts/run_threshold_evaluation.py --help
+```
+
+The script evaluates different threshold settings on clean and dirty data.
 
 ## Outputs
 
